@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-toe</title>
+    <link rel="stylesheet" href="tac.css" >
+</head>
+<body>
+    <main> 
+        <div class=" draw hidden">
+            <p> Draw </p>
+            <button id="rs" > Restart ! </button>
+        </div>
+        <div class="msg hide">
+           <b> <p id="msg"> Winner </p> </b>
+            <button id="nw" > New Game </button>
+        </div>
+        <div class="main">
+            <div> 
+                <div class="heading">
+                    <h1>Lets Play </h1>
+                    <h1>Tic-Tac-Toe !!</h1>
+                    <button id="rst" > Reset Game </button>
+                </div>
+            </div>
+        
+        <div class="container-game">
+            <div class="game">
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+               
+            </div>
+            <div class="turn ">
+                <div id="turn">
+                <thead>
+                    <th colspan="2"> <p>T</p>
+                    <p>U</p>
+                <p>R</p>
+            <p>N</p> </th>
+                </thead>
+                </div>
+                <div class="block">
+                <tbody>
+                 <tr><div class="blockX "><b class = " X hide">X</b></div></tr>
+                <tr><div class=" blockO"><b class = " O  ">O</b></div></tr>
+                </tbody>
+                </div>
+            </div>
+         </div>
+         </div>
+    </main>
+    <script src="toe.js"> </script>
+</body>
+</html>
